@@ -2,8 +2,6 @@ from nest.core import PyNestFactory, Module
 from .app_controller import AppController
 from .app_service import AppService
 from src.trips.trips_module import TripsModule
-from src.trips.trips_module import TripsModule
-
 
 @Module(
     imports=[TripsModule],
